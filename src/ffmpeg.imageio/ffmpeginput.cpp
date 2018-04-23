@@ -88,6 +88,15 @@ inline int avpicture_fill(AVPicture *picture, uint8_t *ptr,
 #define USE_CODECPAR (LIBAVCODEC_VERSION_INT >= AV_VERSION_INT(57,24,0))
 
 
+
+// Changes for ffmpeg 4.0
+#define USE_FFMPEG_4_0 (LIBAVCODEC_VERSION_INT >= AV_VERSION_INT(58, 18, 100))
+
+#if USE_FFMPEG_4_0
+#  define CODEC_CAP_DELAY AV_CODEC_CAP_DELAY
+#endif
+
+
 #include <boost/thread/once.hpp>
 
 #include "OpenImageIO/imageio.h"
