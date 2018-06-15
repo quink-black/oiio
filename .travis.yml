@@ -27,6 +27,8 @@ addons:
    sources:
       - boost-latest
       - ubuntu-toolchain-r-test
+      - george-edison55-precise-backports
+      - sourceline: 'ppa:jonathonf/ffmpeg-3'
    packages:
       - gcc-4.8
       - g++-4.8
