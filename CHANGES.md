@@ -1,3 +1,7 @@
+Release 1.7.20 (1 Sep 2018) -- compared to 1.7.19
+-------------------------------------------------
+* Fixed ImageBuf::contains_roi bug that always returned true. #1996
+
 Release 1.7.19 (1 Jun 2018) -- compared to 1.7.18
 -------------------------------------------------
 * Build fix for 32 bit Windows -- disable SSE that was making trouble. #1933
