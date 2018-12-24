@@ -51,10 +51,10 @@ install:
   - vcpkg install openexr:"%platform%"-windows
   - vcpkg install freetype:"%platform%"-windows
   - vcpkg install giflib:"%platform%"-windows
-  - vcpkg install libraw:"%platform%"-windows
   - vcpkg install libwebp:"%platform%"-windows
   - vcpkg install openjpeg:"%platform%"-windows
   - vcpkg install ptex:"%platform%"-windows
+  - vcpkg install libraw:"%platform%"-windows
   - vcpkg install ffmpeg:"%platform%"-windows
   - vcpkg install qt5-base:"%platform%"-windows
   # - vcpkg install opencv:"%platform%"-windows
